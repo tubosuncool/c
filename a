@@ -1,0 +1,71 @@
+[general]
+excluded_routes=192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://github.com/KOP-XIAO/QuantumultX/raw/master/Scripts/IP_API.js
+network_check_url=http://www.baidu.com/
+server_check_url=http://www.gstatic.com/generate_204
+
+[dns]
+server=119.29.29.29
+server=223.5.5.5
+server=1.0.0.1
+server=8.8.8.8
+
+[policy]
+static=🚀 节点选择, ♻️ 自动选择, DIRECT, 🇭🇰 Relay_-🇭🇰HK_55, 🇸🇬 Relay_-🇸🇬SG_45, 🇸🇬 Relay_-🇸🇬SG_110, 🇭🇰 Relay_-🇭🇰HK_53, Relay_-🏁ZZ_56, Relay_-🏁ZZ_49, 🇭🇰 Relay_-🇭🇰HK_114, 🇨🇳 Relay_-🇹🇼TW_46, |45.24Mb, 🇺🇲 Relay_-🇺🇸US_54, Relay_-🏁ZZ_50, 🇯🇵 Relay_🇯🇵JP-🇺🇸US_580, 🇨🇳 CN_492, Relay_-🇬🇧GB_446, 🇺🇲 US_1230, 🇺🇲 Relay_🇺🇸US-🇺🇸US_1267, 
+url-latency-benchmark=♻️ 自动选择, 🇭🇰 Relay_-🇭🇰HK_55, 🇸🇬 Relay_-🇸🇬SG_45, 🇸🇬 Relay_-🇸🇬SG_110, 🇭🇰 Relay_-🇭🇰HK_53, Relay_-🏁ZZ_56, Relay_-🏁ZZ_49, 🇭🇰 Relay_-🇭🇰HK_114, 🇨🇳 Relay_-🇹🇼TW_46, |45.24Mb, 🇺🇲 Relay_-🇺🇸US_54, Relay_-🏁ZZ_50, 🇯🇵 Relay_🇯🇵JP-🇺🇸US_580, 🇨🇳 CN_492, Relay_-🇬🇧GB_446, 🇺🇲 US_1230, 🇺🇲 Relay_🇺🇸US-🇺🇸US_1267, , img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
+static=🌍 国外媒体, 🚀 节点选择, ♻️ 自动选择, 🎯 全球直连, 🇭🇰 Relay_-🇭🇰HK_55, 🇸🇬 Relay_-🇸🇬SG_45, 🇸🇬 Relay_-🇸🇬SG_110, 🇭🇰 Relay_-🇭🇰HK_53, Relay_-🏁ZZ_56, Relay_-🏁ZZ_49, 🇭🇰 Relay_-🇭🇰HK_114, 🇨🇳 Relay_-🇹🇼TW_46, |45.24Mb, 🇺🇲 Relay_-🇺🇸US_54, Relay_-🏁ZZ_50, 🇯🇵 Relay_🇯🇵JP-🇺🇸US_580, 🇨🇳 CN_492, Relay_-🇬🇧GB_446, 🇺🇲 US_1230, 🇺🇲 Relay_🇺🇸US-🇺🇸US_1267, , img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
+static=📲 电报信息, 🚀 节点选择, 🎯 全球直连, 🇭🇰 Relay_-🇭🇰HK_55, 🇸🇬 Relay_-🇸🇬SG_45, 🇸🇬 Relay_-🇸🇬SG_110, 🇭🇰 Relay_-🇭🇰HK_53, Relay_-🏁ZZ_56, Relay_-🏁ZZ_49, 🇭🇰 Relay_-🇭🇰HK_114, 🇨🇳 Relay_-🇹🇼TW_46, |45.24Mb, 🇺🇲 Relay_-🇺🇸US_54, Relay_-🏁ZZ_50, 🇯🇵 Relay_🇯🇵JP-🇺🇸US_580, 🇨🇳 CN_492, Relay_-🇬🇧GB_446, 🇺🇲 US_1230, 🇺🇲 Relay_🇺🇸US-🇺🇸US_1267, , img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
+static=Ⓜ️ 微软服务, 🎯 全球直连, 🚀 节点选择, 🇭🇰 Relay_-🇭🇰HK_55, 🇸🇬 Relay_-🇸🇬SG_45, 🇸🇬 Relay_-🇸🇬SG_110, 🇭🇰 Relay_-🇭🇰HK_53, Relay_-🏁ZZ_56, Relay_-🏁ZZ_49, 🇭🇰 Relay_-🇭🇰HK_114, 🇨🇳 Relay_-🇹🇼TW_46, |45.24Mb, 🇺🇲 Relay_-🇺🇸US_54, Relay_-🏁ZZ_50, 🇯🇵 Relay_🇯🇵JP-🇺🇸US_580, 🇨🇳 CN_492, Relay_-🇬🇧GB_446, 🇺🇲 US_1230, 🇺🇲 Relay_🇺🇸US-🇺🇸US_1267, , img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
+static=🍎 苹果服务, 🚀 节点选择, 🎯 全球直连, 🇭🇰 Relay_-🇭🇰HK_55, 🇸🇬 Relay_-🇸🇬SG_45, 🇸🇬 Relay_-🇸🇬SG_110, 🇭🇰 Relay_-🇭🇰HK_53, Relay_-🏁ZZ_56, Relay_-🏁ZZ_49, 🇭🇰 Relay_-🇭🇰HK_114, 🇨🇳 Relay_-🇹🇼TW_46, |45.24Mb, 🇺🇲 Relay_-🇺🇸US_54, Relay_-🏁ZZ_50, 🇯🇵 Relay_🇯🇵JP-🇺🇸US_580, 🇨🇳 CN_492, Relay_-🇬🇧GB_446, 🇺🇲 US_1230, 🇺🇲 Relay_🇺🇸US-🇺🇸US_1267, , img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
+static=📢 谷歌FCM, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, 🇭🇰 Relay_-🇭🇰HK_55, 🇸🇬 Relay_-🇸🇬SG_45, 🇸🇬 Relay_-🇸🇬SG_110, 🇭🇰 Relay_-🇭🇰HK_53, Relay_-🏁ZZ_56, Relay_-🏁ZZ_49, 🇭🇰 Relay_-🇭🇰HK_114, 🇨🇳 Relay_-🇹🇼TW_46, |45.24Mb, 🇺🇲 Relay_-🇺🇸US_54, Relay_-🏁ZZ_50, 🇯🇵 Relay_🇯🇵JP-🇺🇸US_580, 🇨🇳 CN_492, Relay_-🇬🇧GB_446, 🇺🇲 US_1230, 🇺🇲 Relay_🇺🇸US-🇺🇸US_1267, 
+static=🎯 全球直连, DIRECT, 🚀 节点选择, ♻️ 自动选择, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
+static=🛑 全球拦截, REJECT, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
+static=🍃 应用净化, REJECT, DIRECT
+static=🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, 🇭🇰 Relay_-🇭🇰HK_55, 🇸🇬 Relay_-🇸🇬SG_45, 🇸🇬 Relay_-🇸🇬SG_110, 🇭🇰 Relay_-🇭🇰HK_53, Relay_-🏁ZZ_56, Relay_-🏁ZZ_49, 🇭🇰 Relay_-🇭🇰HK_114, 🇨🇳 Relay_-🇹🇼TW_46, |45.24Mb, 🇺🇲 Relay_-🇺🇸US_54, Relay_-🏁ZZ_50, 🇯🇵 Relay_🇯🇵JP-🇺🇸US_580, 🇨🇳 CN_492, Relay_-🇬🇧GB_446, 🇺🇲 US_1230, 🇺🇲 Relay_🇺🇸US-🇺🇸US_1267, , img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+
+[server_remote]
+
+[filter_remote]
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvTG9jYWxBcmVhTmV0d29yay5saXN0&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvVW5CYW4ubGlzdA&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuQUQubGlzdA&group=8J-bkSDlhajnkIPmi6bmiKo, tag=🛑 全球拦截, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuUHJvZ3JhbUFELmxpc3Q&group=8J-NgyDlupTnlKjlh4DljJY, tag=🍃 应用净化, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9Hb29nbGVGQ00ubGlzdA&group=8J-ToiDosLfmrYxGQ00, tag=📢 谷歌FCM, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvR29vZ2xlQ04ubGlzdA&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9TdGVhbUNOLmxpc3Q&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvTWljcm9zb2Z0Lmxpc3Q&group=4pOC77iPIOW-rui9r-acjeWKoQ, tag=Ⓜ️ 微软服务, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQXBwbGUubGlzdA&group=8J-NjiDoi7nmnpzmnI3liqE, tag=🍎 苹果服务, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvVGVsZWdyYW0ubGlzdA&group=8J-TsiDnlLXmiqXkv6Hmga8, tag=📲 电报信息, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlNZWRpYS5saXN0&group=8J-MjSDlm73lpJblqpLkvZM, tag=🌍 国外媒体, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlMaXRlLmxpc3Q&group=8J-agCDoioLngrnpgInmi6k, tag=🚀 节点选择, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQ2hpbmFEb21haW4ubGlzdA&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQ2hpbmFDb21wYW55SXAubGlzdA&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+
+[rewrite_remote]
+
+[server_local]
+shadowsocks = out.jijifun.com:30003, method=aes-256-gcm, password=114514, obfs=http, obfs-host=84f48068fe.microsoft.com, tag=🇭🇰 Relay_-🇭🇰HK_55
+shadowsocks = out.jijifun.com:30042, method=aes-256-gcm, password=114514, obfs=http, obfs-host=84f48068fe.microsoft.com, tag=🇸🇬 Relay_-🇸🇬SG_45
+shadowsocks = out.jijifun.com:30043, method=aes-256-gcm, password=114514, obfs=http, obfs-host=84f48068fe.microsoft.com, tag=🇸🇬 Relay_-🇸🇬SG_110
+shadowsocks = out.jijifun.com:30012, method=aes-256-gcm, password=114514, obfs=http, obfs-host=84f48068fe.microsoft.com, tag=🇭🇰 Relay_-🇭🇰HK_53
+shadowsocks = out.jijifun.com:30053, method=aes-256-gcm, password=114514, obfs=http, obfs-host=84f48068fe.microsoft.com, tag=Relay_-🏁ZZ_56
+shadowsocks = out.jijifun.com:30052, method=aes-256-gcm, password=114514, obfs=http, obfs-host=84f48068fe.microsoft.com, tag=Relay_-🏁ZZ_49
+shadowsocks = out.jijifun.com:30013, method=aes-256-gcm, password=114514, obfs=http, obfs-host=84f48068fe.microsoft.com, tag=🇭🇰 Relay_-🇭🇰HK_114
+shadowsocks = out.jijifun.com:30032, method=aes-256-gcm, password=114514, obfs=http, obfs-host=84f48068fe.microsoft.com, tag=🇨🇳 Relay_-🇹🇼TW_46
+vmess = hk80-2.af49c4e4c2ef.sanfen001.pics:80, method=chacha20-ietf-poly1305, password=dcea7f3e-98ba-4ac8-a294-5092dc381a57, aead=true, obfs=ws, obfs-host=hk80-2.af49c4e4c2ef.sanfen001.pics, obfs-uri=/zh-cn/, tag=|45.24Mb
+shadowsocks = out.jijifun.com:30067, method=aes-256-gcm, password=114514, obfs=http, obfs-host=84f48068fe.microsoft.com, tag=🇺🇲 Relay_-🇺🇸US_54
+shadowsocks = out.jijifun.com:30065, method=aes-256-gcm, password=114514, obfs=http, obfs-host=84f48068fe.microsoft.com, tag=Relay_-🏁ZZ_50
+vmess = jp-direct.node002.xyz:445, method=chacha20-ietf-poly1305, password=0f01682d-2454-3fd5-beec-53ea4cec7e0c, aead=true, obfs=over-tls, obfs-host=jp-direct.node002.xyz, tag=🇯🇵 Relay_🇯🇵JP-🇺🇸US_580
+vmess = 106.55.234.95:31372, method=chacha20-ietf-poly1305, password=374d3519-455c-45b8-e3b1-0e2e9fcf4411, aead=true, tag=🇨🇳 CN_492
+trojan = zzus01.gutingting.com:20220, password=906e616c-5856-4581-80bf-8ff9c7756c18, over-tls=true, tls-host=zzus01.gutingting.com, tls-verification=false, tag=Relay_-🇬🇧GB_446
+vmess = 47.243.111.25:31705, method=chacha20-ietf-poly1305, password=d0fc2199-6bb4-4559-a7ec-48f3d728500d, aead=true, tag=🇺🇲 US_1230
+vmess = petal.tk:443, method=chacha20-ietf-poly1305, password=b7718dc4-8c46-483b-d347-dd5d8209e023, aead=true, obfs=wss, obfs-host=petal.tk, obfs-uri=/jjpwvws, tag=🇺🇲 Relay_🇺🇸US-🇺🇸US_1267
+vmess = jp-direct.node002.xyz:445, method=chacha20-ietf-poly1305, password=0f01682d-2454-3fd5-beec-53ea4cec7e0c, aead=true, obfs=over-tls, obfs-host=jp-direct.node002.xyz, tag=
+
+[filter_local]
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
+
+[rewrite_local]
+
+[mitm]
