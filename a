@@ -4,33 +4,7 @@ geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://github.com/KOP-
 network_check_url=http://www.baidu.com/
 server_check_url=http://www.gstatic.com/generate_204
 
-[dns]
-server=119.29.29.29
-server=223.5.5.5
-server=1.0.0.1
-server=8.8.8.8
-
-[policy]
-static=🇭🇰 香港节点, direct
-static=🇯🇵 日本节点, direct
-static=🇺🇲 美国节点, 🇺🇸 Relay_🇺🇸US-🇺🇸US_1759
-static=🇨🇳 台湾节点, direct
-static=🇸🇬 狮城节点, direct
-static=🇰🇷 韩国节点, direct
-static=🌍 其他地区, direct
-static=♻️ 专线节点, direct
-static=♻️ 手动切换, _1080, 🇺🇸 Relay_🇺🇸US-🇺🇸US_1759, Relay_🇪🇬EG-🇪🇬EG_1162
-static=📲 聊天软件, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🇨🇳 台湾节点, 🇸🇬 狮城节点, 🇰🇷 韩国节点, 🌍 其他地区, ♻️ 专线节点, ♻️ 手动切换, DIRECT
-static=🎬 YouTube, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🇨🇳 台湾节点, 🇸🇬 狮城节点, 🇰🇷 韩国节点, 🌍 其他地区, ♻️ 专线节点, ♻️ 手动切换, DIRECT
-static=🎬 NETFLIX, 🇸🇬 狮城节点, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🇨🇳 台湾节点, 🇰🇷 韩国节点, 🌍 其他地区, ♻️ 专线节点, ♻️ 手动切换, DIRECT
-static=🎬 Prime, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🇨🇳 台湾节点, 🇸🇬 狮城节点, 🇰🇷 韩国节点, 🌍 其他地区, ♻️ 专线节点, ♻️ 手动切换, DIRECT
-static=🎬 DisneyPlus, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🇨🇳 台湾节点, 🇸🇬 狮城节点, 🇰🇷 韩国节点, 🌍 其他地区, ♻️ 专线节点, ♻️ 手动切换, DIRECT
-static=🎬 HBO GO, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🇨🇳 台湾节点, 🇸🇬 狮城节点, 🇰🇷 韩国节点, 🌍 其他地区, ♻️ 专线节点, ♻️ 手动切换, DIRECT
-static=🎬 HBO MAX, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🇨🇳 台湾节点, 🇸🇬 狮城节点, 🇰🇷 韩国节点, 🌍 其他地区, ♻️ 专线节点, ♻️ 手动切换, DIRECT
-static=🎬 EMBY, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🇨🇳 台湾节点, 🇸🇬 狮城节点, 🇰🇷 韩国节点, 🌍 其他地区, ♻️ 专线节点, ♻️ 手动切换, DIRECT
-static=🎬 巴哈姆特, 🇨🇳 台湾节点, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🇸🇬 狮城节点, 🇰🇷 韩国节点, 🌍 其他地区, ♻️ 专线节点, ♻️ 手动切换, DIRECT
-static=🎬 日韩媒体, 🇯🇵 日本节点, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇨🇳 台湾节点, 🇸🇬 狮城节点, 🇰🇷 韩国节点, 🌍 其他地区, ♻️ 专线节点, ♻️ 手动切换, DIRECT
-static=🎬 国外媒体, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🇨🇳 台湾节点, 🇸🇬 狮城节点, 🇰🇷 韩国节点, 🌍 其他地区, ♻️ 专线节点, ♻️ 手动切换, DIRECT
+[dns]IRECT
 static=🎬 港台媒体, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🇨🇳 台湾节点, 🇸🇬 狮城节点, 🇰🇷 韩国节点, 🌍 其他地区, ♻️ 专线节点, ♻️ 手动切换, DIRECT
 static=🌏 国外网站, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🇨🇳 台湾节点, 🇸🇬 狮城节点, 🇰🇷 韩国节点, 🌍 其他地区, ♻️ 专线节点, ♻️ 手动切换, DIRECT
 static=🇧🇹 BT&PT, DIRECT, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🇨🇳 台湾节点, 🇸🇬 狮城节点, 🇰🇷 韩国节点, 🌍 其他地区, ♻️ 专线节点, ♻️ 手动切换
