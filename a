@@ -11,10 +11,10 @@ server=1.0.0.1
 server=8.8.8.8
 
 [policy]
-static=国外, DIRECT, _03, Relay_-🇯🇵JP_1027, 🇨🇳 Relay_🇨🇳CN-🏁ZZ_1116, _02, Relay_-🇺🇸US_1055, _1049, SG_1466, SG_1454, _997, _384, _103
-static=Steam, DIRECT, 国外, _03, Relay_-🇯🇵JP_1027, 🇨🇳 Relay_🇨🇳CN-🏁ZZ_1116, _02, Relay_-🇺🇸US_1055, _1049, SG_1466, SG_1454, _997, _384, _103
-static=哔哩哔哩, DIRECT, 国外, 国内, _03, Relay_-🇯🇵JP_1027, 🇨🇳 Relay_🇨🇳CN-🏁ZZ_1116, _02, Relay_-🇺🇸US_1055, _1049, SG_1466, SG_1454, _997, _384, _103
-static=国内, DIRECT, _03, Relay_-🇯🇵JP_1027, 🇨🇳 Relay_🇨🇳CN-🏁ZZ_1116, _02, Relay_-🇺🇸US_1055, _1049, SG_1466, SG_1454, _997, _384, _103
+static=国外, DIRECT, Relay_-🇭🇰HK_1069, Relay_-🇸🇬SG_974, Relay_-🇸🇬SG_977, Relay_-🇸🇬SG_978, Relay_-🇭🇰HK_03, 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285, _821, 🇺🇸 Relay_🇺🇸US-🇺🇸US_988 |16.52Mb, _997
+static=Steam, DIRECT, 国外, Relay_-🇭🇰HK_1069, Relay_-🇸🇬SG_974, Relay_-🇸🇬SG_977, Relay_-🇸🇬SG_978, Relay_-🇭🇰HK_03, 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285, _821, 🇺🇸 Relay_🇺🇸US-🇺🇸US_988 |16.52Mb, _997
+static=哔哩哔哩, DIRECT, 国外, 国内, Relay_-🇭🇰HK_1069, Relay_-🇸🇬SG_974, Relay_-🇸🇬SG_977, Relay_-🇸🇬SG_978, Relay_-🇭🇰HK_03, 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285, _821, 🇺🇸 Relay_🇺🇸US-🇺🇸US_988 |16.52Mb, _997
+static=国内, DIRECT, Relay_-🇭🇰HK_1069, Relay_-🇸🇬SG_974, Relay_-🇸🇬SG_977, Relay_-🇸🇬SG_978, Relay_-🇭🇰HK_03, 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285, _821, 🇺🇸 Relay_🇺🇸US-🇺🇸US_988 |16.52Mb, _997
 
 [server_remote]
 
@@ -31,17 +31,15 @@ https://api-suc.0z.gs/getruleset?type=2&url=Y29uZmlnL0NoaW5hSVAudHh0&group=5Zu95
 [rewrite_remote]
 
 [server_local]
-shadowsocks = 54.169.46.138:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=true, tag=_03
-vmess = gy02.flydog.pro:10010, method=chacha20-ietf-poly1305, password=11968859-d787-4b5d-b279-17dea8643d5d, aead=true, fast-open=false, udp-relay=true, tag=Relay_-🇯🇵JP_1027
-trojan = iplc-enter-hk-xe.fib-sys.xyz:11451, password=11a4e5be-3c87-37d2-aac8-00b85ef0fcdc, over-tls=true, tls-host=hk-xe.fib-sys.xyz, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=🇨🇳 Relay_🇨🇳CN-🏁ZZ_1116
-shadowsocks = 13.229.51.197:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=true, tag=_02
-trojan = awshk9-tg-data.amazonwebservicess.com:443, password=6f98b32d-1e36-4be5-8c30-edb0ae1220a9, over-tls=true, tls-host=data.amazonwebservicess.com, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=Relay_-🇺🇸US_1055
-trojan = 35.221.86.68:443, password=jpgcp, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=_1049
-vmess = 8.218.182.129:27191, method=chacha20-ietf-poly1305, password=a7be7873-3f6f-4aec-a24d-dba051e3283a, aead=true, fast-open=false, udp-relay=true, tag=SG_1466
-vmess = 8.218.180.44:30840, method=chacha20-ietf-poly1305, password=99ac8983-3728-4302-a5e7-171099928c00, aead=true, fast-open=false, udp-relay=true, tag=SG_1454
+trojan = oss-cn-shanghai.westdatacloud.top:20048, password=626351FA-3CA6-8118-FADF-CCDBCD620871, over-tls=true, tls-host=v12.kwaicdn.com, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=Relay_-🇭🇰HK_1069
+shadowsocks = sg-am3.eqsunshine.com:32001, method=aes-256-cfb, password=3g0dHlKME, ssr-protocol=origin, obfs=tls1.2_ticket_auth, fast-open=false, udp-relay=true, tag=Relay_-🇸🇬SG_974
+shadowsocks = sg-am3.eqsunshine.com:32001, method=aes-256-cfb, password=3g0dHlKME, ssr-protocol=origin, ssr-protocol-param====%%%, obfs=tls1.2_ticket_auth, obfs-host====%%%, fast-open=false, udp-relay=true, tag=Relay_-🇸🇬SG_977
+shadowsocks = sg-am3.eqsunshine.com:32001, method=aes-256-cfb, password=3g0dHlKME, ssr-protocol=origin, ssr-protocol-param=====, obfs=tls1.2_ticket_auth, obfs-host=====, fast-open=false, udp-relay=true, tag=Relay_-🇸🇬SG_978
+shadowsocks = hkhgc01.ikun.bio:16487, method=chacha20-ietf-poly1305, password=d5c37cc8-72bc-40b5-9743-4a3ab2f182e1, fast-open=false, udp-relay=true, tag=Relay_-🇭🇰HK_03
+trojan = jp7.lianpi.xyz:53638, password=5d651d8c-d5b3-418b-a3ea-55171af5b726, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285
+shadowsocks = 54.169.160.39:801, method=chacha20-ietf-poly1305, password=tvX1v#NSFP_LG_bJ, fast-open=false, udp-relay=true, tag=_821
+vmess = new6.hucloud-dns.xyz:443, method=chacha20-ietf-poly1305, password=0a5dc877-0211-4352-f73a-8fbdae81d673, aead=true, tls13=false, obfs=wss, obfs-host=new6.hucloud-dns.xyz, obfs-uri=/, fast-open=false, udp-relay=true, tls-verification=false, tag=🇺🇸 Relay_🇺🇸US-🇺🇸US_988 |16.52Mb
 vmess = 106.55.234.95:31372, method=chacha20-ietf-poly1305, password=374d3519-455c-45b8-e3b1-0e2e9fcf4411, aead=true, fast-open=false, udp-relay=true, tag=_997
-shadowsocks = 43.201.57.87:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=true, tag=_384
-shadowsocks = 54.213.251.102:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=true, tag=_103
 
 [filter_local]
 FINAL,国外
