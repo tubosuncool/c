@@ -11,11 +11,11 @@ server=1.0.0.1
 server=8.8.8.8
 
 [policy]
-static=国外, DIRECT, SG_1434, SG_1436, 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285, SG_1437, _997, Relay_-🇹🇼TW_993, Relay_-🇯🇵JP_854, _770
-static=Telegram, DIRECT, 国外, SG_1434, SG_1436, 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285, SG_1437, _997, Relay_-🇹🇼TW_993, Relay_-🇯🇵JP_854, _770
-static=Steam, DIRECT, 国外, SG_1434, SG_1436, 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285, SG_1437, _997, Relay_-🇹🇼TW_993, Relay_-🇯🇵JP_854, _770
-static=哔哩哔哩, DIRECT, 国外, SG_1434, SG_1436, 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285, SG_1437, _997, Relay_-🇹🇼TW_993, Relay_-🇯🇵JP_854, _770
-static=国内, DIRECT, SG_1434, SG_1436, 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285, SG_1437, _997, Relay_-🇹🇼TW_993, Relay_-🇯🇵JP_854, _770
+static=国外, DIRECT, SG_1436, SG_1434, SG_1437, 🇨🇳 Relay_🇨🇳CN-🇺🇸US_184 | 7.76Mb, 🇨🇳 Relay_🇨🇳CN-🇺🇸US_187 | 9.04Mb, 🇨🇳 Relay_🇨🇳CN-🇺🇸US_188 | 8.81Mb
+static=Telegram, DIRECT, 国外, SG_1436, SG_1434, SG_1437, 🇨🇳 Relay_🇨🇳CN-🇺🇸US_184 | 7.76Mb, 🇨🇳 Relay_🇨🇳CN-🇺🇸US_187 | 9.04Mb, 🇨🇳 Relay_🇨🇳CN-🇺🇸US_188 | 8.81Mb
+static=Steam, DIRECT, 国外, SG_1436, SG_1434, SG_1437, 🇨🇳 Relay_🇨🇳CN-🇺🇸US_184 | 7.76Mb, 🇨🇳 Relay_🇨🇳CN-🇺🇸US_187 | 9.04Mb, 🇨🇳 Relay_🇨🇳CN-🇺🇸US_188 | 8.81Mb
+static=哔哩哔哩, DIRECT, 国外, SG_1436, SG_1434, SG_1437, 🇨🇳 Relay_🇨🇳CN-🇺🇸US_184 | 7.76Mb, 🇨🇳 Relay_🇨🇳CN-🇺🇸US_187 | 9.04Mb, 🇨🇳 Relay_🇨🇳CN-🇺🇸US_188 | 8.81Mb
+static=国内, DIRECT, SG_1436, SG_1434, SG_1437, 🇨🇳 Relay_🇨🇳CN-🇺🇸US_184 | 7.76Mb, 🇨🇳 Relay_🇨🇳CN-🇺🇸US_187 | 9.04Mb, 🇨🇳 Relay_🇨🇳CN-🇺🇸US_188 | 8.81Mb
 
 [server_remote]
 
@@ -33,14 +33,12 @@ https://api-suc.0z.gs/getruleset?type=2&url=Y29uZmlnL0NoaW5hSVAudHh0&group=5Zu95
 [rewrite_remote]
 
 [server_local]
-shadowsocks = 18.136.212.230:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=true, tag=SG_1434
 shadowsocks = 13.229.201.5:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=true, tag=SG_1436
-trojan = jp7.lianpi.xyz:53638, password=5d651d8c-d5b3-418b-a3ea-55171af5b726, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285
+shadowsocks = 18.136.212.230:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=true, tag=SG_1434
 shadowsocks = 3.1.6.229:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=true, tag=SG_1437
-vmess = 106.55.234.95:31372, method=chacha20-ietf-poly1305, password=374d3519-455c-45b8-e3b1-0e2e9fcf4411, aead=true, fast-open=false, udp-relay=true, tag=_997
-vmess = polotw1.applebench.tech:56568, method=chacha20-ietf-poly1305, password=a33fcd7c-daa6-44f3-8de0-be74e17f0d8b, aead=true, fast-open=false, udp-relay=true, tag=Relay_-🇹🇼TW_993
-shadowsocks = moslb-x-aws-jptk.softether.net:25565, method=aes-256-gcm, password=fuck_gfw, fast-open=false, udp-relay=true, tag=Relay_-🇯🇵JP_854
-shadowsocks = 43.201.86.41:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=true, tag=_770
+vmess = AZHK-NODE-01.PL2020.XYZ:10017, method=chacha20-ietf-poly1305, password=7bb78d3e-c1ce-430d-b0ab-cd85fabd09c5, aead=true, tls13=false, obfs=over-tls, obfs-host=AZHK-NODE-01.PL2020.XYZ, fast-open=false, udp-relay=true, tls-verification=false, tag=🇨🇳 Relay_🇨🇳CN-🇺🇸US_184 | 7.76Mb
+vmess = AZHK-NODE-01.PL2020.XYZ:10020, method=chacha20-ietf-poly1305, password=7bb78d3e-c1ce-430d-b0ab-cd85fabd09c5, aead=true, tls13=false, obfs=over-tls, obfs-host=AZHK-NODE-01.PL2020.XYZ, fast-open=false, udp-relay=true, tls-verification=false, tag=🇨🇳 Relay_🇨🇳CN-🇺🇸US_187 | 9.04Mb
+vmess = AZHK-NODE-01.PL2020.XYZ:10025, method=chacha20-ietf-poly1305, password=7bb78d3e-c1ce-430d-b0ab-cd85fabd09c5, aead=true, tls13=false, obfs=over-tls, obfs-host=AZHK-NODE-01.PL2020.XYZ, fast-open=false, udp-relay=true, tls-verification=false, tag=🇨🇳 Relay_🇨🇳CN-🇺🇸US_188 | 8.81Mb
 
 [filter_local]
 FINAL,国外
