@@ -11,11 +11,11 @@ server=1.0.0.1
 server=8.8.8.8
 
 [policy]
-static=国外, DIRECT, _962, Pool__235, Pool__234, Pool__237, Pool__196, Pool__194, Pool__198, Pool__202, Pool__446, Pool__195, Pool__236, Pool__225, Pool__204, Pool__318, KR_1362, Pool__239, Pool__269, Relay_-🇺🇸US_1084, Pool__191, Relay_ | 8.81Mb, Relay_ |26.41Mb, Relay_ |10.85Mb, Relay_ |16.95Mb, US_1850, Relay_-🇬🇧GB_1142, Relay_-🇬🇧GB_1141, Relay_-🇬🇧GB_1143, _1156, _912
-static=Telegram, DIRECT, 国外, _962, Pool__235, Pool__234, Pool__237, Pool__196, Pool__194, Pool__198, Pool__202, Pool__446, Pool__195, Pool__236, Pool__225, Pool__204, Pool__318, KR_1362, Pool__239, Pool__269, Relay_-🇺🇸US_1084, Pool__191, Relay_ | 8.81Mb, Relay_ |26.41Mb, Relay_ |10.85Mb, Relay_ |16.95Mb, US_1850, Relay_-🇬🇧GB_1142, Relay_-🇬🇧GB_1141, Relay_-🇬🇧GB_1143, _1156, _912
-static=Steam, DIRECT, 国外, _962, Pool__235, Pool__234, Pool__237, Pool__196, Pool__194, Pool__198, Pool__202, Pool__446, Pool__195, Pool__236, Pool__225, Pool__204, Pool__318, KR_1362, Pool__239, Pool__269, Relay_-🇺🇸US_1084, Pool__191, Relay_ | 8.81Mb, Relay_ |26.41Mb, Relay_ |10.85Mb, Relay_ |16.95Mb, US_1850, Relay_-🇬🇧GB_1142, Relay_-🇬🇧GB_1141, Relay_-🇬🇧GB_1143, _1156, _912
-static=哔哩哔哩, DIRECT, 国外, _962, Pool__235, Pool__234, Pool__237, Pool__196, Pool__194, Pool__198, Pool__202, Pool__446, Pool__195, Pool__236, Pool__225, Pool__204, Pool__318, KR_1362, Pool__239, Pool__269, Relay_-🇺🇸US_1084, Pool__191, Relay_ | 8.81Mb, Relay_ |26.41Mb, Relay_ |10.85Mb, Relay_ |16.95Mb, US_1850, Relay_-🇬🇧GB_1142, Relay_-🇬🇧GB_1141, Relay_-🇬🇧GB_1143, _1156, _912
-static=国内, DIRECT, _962, Pool__235, Pool__234, Pool__237, Pool__196, Pool__194, Pool__198, Pool__202, Pool__446, Pool__195, Pool__236, Pool__225, Pool__204, Pool__318, KR_1362, Pool__239, Pool__269, Relay_-🇺🇸US_1084, Pool__191, Relay_ | 8.81Mb, Relay_ |26.41Mb, Relay_ |10.85Mb, Relay_ |16.95Mb, US_1850, Relay_-🇬🇧GB_1142, Relay_-🇬🇧GB_1141, Relay_-🇬🇧GB_1143, _1156, _912
+static=国外, DIRECT, _57, Relay_-🇺🇸US_1092, SG_1544, _03, _1156, Relay_🏁ZZ-🇬🇧GB_1987, _906
+static=Telegram, DIRECT, 国外, _57, Relay_-🇺🇸US_1092, SG_1544, _03, _1156, Relay_🏁ZZ-🇬🇧GB_1987, _906
+static=Steam, DIRECT, 国外, _57, Relay_-🇺🇸US_1092, SG_1544, _03, _1156, Relay_🏁ZZ-🇬🇧GB_1987, _906
+static=哔哩哔哩, DIRECT, 国外, _57, Relay_-🇺🇸US_1092, SG_1544, _03, _1156, Relay_🏁ZZ-🇬🇧GB_1987, _906
+static=国内, DIRECT, _57, Relay_-🇺🇸US_1092, SG_1544, _03, _1156, Relay_🏁ZZ-🇬🇧GB_1987, _906
 
 [server_remote]
 
@@ -33,35 +33,13 @@ https://api-suc.0z.gs/getruleset?type=2&url=Y29uZmlnL0NoaW5hSVAudHh0&group=5Zu95
 [rewrite_remote]
 
 [server_local]
-vmess = 106.55.234.95:31372, method=chacha20-ietf-poly1305, password=374d3519-455c-45b8-e3b1-0e2e9fcf4411, aead=true, fast-open=false, udp-relay=true, tag=_962
-shadowsocks = 85.208.108.60:8118, method=aes-256-gcm, password=cdBIDV42DCwnfIN, fast-open=false, udp-relay=true, tag=Pool__235
-shadowsocks = 85.208.108.60:7306, method=aes-256-gcm, password=FoOiGlkAA9yPEGP, fast-open=false, udp-relay=true, tag=Pool__234
-shadowsocks = 85.208.108.60:8882, method=aes-256-gcm, password=kDWvXYZoTBcGkC4, fast-open=false, udp-relay=true, tag=Pool__237
-shadowsocks = 85.208.108.60:2375, method=aes-256-gcm, password=faBAoD54k87UJG7, fast-open=false, udp-relay=true, tag=Pool__196
-shadowsocks = 85.208.108.60:3389, method=aes-256-gcm, password=Y6R9pAtvxxzmGC, fast-open=false, udp-relay=true, tag=Pool__194
-shadowsocks = 85.208.108.60:5601, method=aes-256-gcm, password=Y6R9pAtvxxzmGC, fast-open=false, udp-relay=true, tag=Pool__198
-shadowsocks = 85.208.108.60:8881, method=aes-256-gcm, password=kDWvXYZoTBcGkC4, fast-open=false, udp-relay=true, tag=Pool__202
-shadowsocks = 85.208.108.60:7002, method=aes-256-gcm, password=RexnBgU7EV5ADxG, fast-open=false, udp-relay=true, tag=Pool__446
-shadowsocks = 85.208.108.60:8888, method=aes-256-gcm, password=Y6R9pAtvxxzmGC, fast-open=false, udp-relay=true, tag=Pool__195
-shadowsocks = 85.208.108.60:443, method=aes-256-gcm, password=pKEW8JPByTVTLtM, fast-open=false, udp-relay=true, tag=Pool__236
-shadowsocks = 85.208.108.60:9101, method=aes-256-gcm, password=e4FCWrgpkji3QY, fast-open=false, udp-relay=true, tag=Pool__225
-shadowsocks = 85.208.108.60:5500, method=aes-256-gcm, password=KixLvKzwjekG00rm, fast-open=false, udp-relay=true, tag=Pool__204
-shadowsocks = 85.208.108.60:4444, method=aes-256-gcm, password=pKEW8JPByTVTLtM, fast-open=false, udp-relay=true, tag=Pool__318
-shadowsocks = 13.125.198.225:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=true, tag=KR_1362
-shadowsocks = 85.208.108.60:5600, method=aes-256-gcm, password=Y6R9pAtvxxzmGC, fast-open=false, udp-relay=true, tag=Pool__239
-shadowsocks = 85.208.108.60:6697, method=aes-256-gcm, password=TEzjfAYq2IjtuoS, fast-open=false, udp-relay=true, tag=Pool__269
-vmess = c8s4.jjvip8.com:26326, method=chacha20-ietf-poly1305, password=db0169ee-42b0-492d-8492-bbb4a5c41938, aead=true, fast-open=false, udp-relay=true, tag=Relay_-🇺🇸US_1084
-shadowsocks = 85.208.108.60:5004, method=aes-256-gcm, password=g5MeD6Ft3CWlJId, fast-open=false, udp-relay=true, tag=Pool__191
-vmess = AZHK-NODE-01.PL2020.XYZ:10025, method=chacha20-ietf-poly1305, password=7bb78d3e-c1ce-430d-b0ab-cd85fabd09c5, aead=true, tls13=false, obfs=over-tls, obfs-host=AZHK-NODE-01.PL2020.XYZ, fast-open=false, udp-relay=true, tls-verification=false, tag=Relay_ | 8.81Mb
-vmess = AZHK-NODE-01.PL2020.XYZ:10025, method=chacha20-ietf-poly1305, password=7bb78d3e-c1ce-430d-b0ab-cd85fabd09c5, aead=true, tls13=false, obfs=over-tls, obfs-host=AZHK-NODE-01.PL2020.XYZ, fast-open=false, udp-relay=true, tls-verification=false, tag=Relay_ |26.41Mb
-vmess = AZHK-NODE-01.PL2020.XYZ:10017, method=chacha20-ietf-poly1305, password=7bb78d3e-c1ce-430d-b0ab-cd85fabd09c5, aead=true, tls13=false, obfs=over-tls, obfs-host=AZHK-NODE-01.PL2020.XYZ, fast-open=false, udp-relay=true, tls-verification=false, tag=Relay_ |10.85Mb
-vmess = AZHK-NODE-01.PL2020.XYZ:10020, method=chacha20-ietf-poly1305, password=7bb78d3e-c1ce-430d-b0ab-cd85fabd09c5, aead=true, tls13=false, obfs=over-tls, obfs-host=AZHK-NODE-01.PL2020.XYZ, fast-open=false, udp-relay=true, tls-verification=false, tag=Relay_ |16.95Mb
-vmess = 47.243.174.8:26234, method=chacha20-ietf-poly1305, password=2f0e176d-c1a4-4672-90cb-e81a80c7e684, aead=true, fast-open=false, udp-relay=true, tag=US_1850
-trojan = zzus01.gutingting.com:20220, password=e8797830-5196-4721-a372-70f62791c23a, over-tls=true, tls-host=zzus01.gutingting.com, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=Relay_-🇬🇧GB_1142
-trojan = zzus01.gutingting.com:20220, password=49df813f-555b-465a-9fe4-e85558e1e681, over-tls=true, tls-host=zzus01.gutingting.com, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=Relay_-🇬🇧GB_1141
-trojan = zzus01.gutingting.com:20220, password=6edad2bf-cca2-49ad-8810-40e38b38a3cb, over-tls=true, tls-host=zzus01.gutingting.com, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=Relay_-🇬🇧GB_1143
+shadowsocks = 3.38.149.198:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=true, tag=_57
+vmess = auvwfuyse.76898102.xyz:15332, method=chacha20-ietf-poly1305, password=5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, aead=true, fast-open=false, udp-relay=true, tag=Relay_-🇺🇸US_1092
+shadowsocks = 13.229.122.56:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=true, tag=SG_1544
+shadowsocks = 18.183.107.80:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=true, tag=_03
 trojan = 152.70.74.66:443, password=d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=_1156
-shadowsocks = 43.207.225.151:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=true, tag=_912
+vmess = hdlbydawifbn.114514782.xyz:2095, method=chacha20-ietf-poly1305, password=eaefcb64-2776-3706-b963-a19a2433755e, aead=true, obfs=ws, obfs-host=hdlbydawifbn.114514782.xyz, obfs-uri=/vburgf, fast-open=false, udp-relay=true, tag=Relay_🏁ZZ-🇬🇧GB_1987
+shadowsocks = 43.207.66.114:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=true, tag=_906
 
 [filter_local]
 FINAL,国外
