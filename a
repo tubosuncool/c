@@ -11,11 +11,11 @@ server=1.0.0.1
 server=8.8.8.8
 
 [policy]
-static=国外, DIRECT, SG_1528, SG_1533, SG_1535, SG_1537, SG_1532, SG_1538, SG_1536, SG_1540
-static=Telegram, DIRECT, 国外, SG_1528, SG_1533, SG_1535, SG_1537, SG_1532, SG_1538, SG_1536, SG_1540
-static=Steam, DIRECT, 国外, SG_1528, SG_1533, SG_1535, SG_1537, SG_1532, SG_1538, SG_1536, SG_1540
-static=哔哩哔哩, DIRECT, 国外, SG_1528, SG_1533, SG_1535, SG_1537, SG_1532, SG_1538, SG_1536, SG_1540
-static=国内, DIRECT, SG_1528, SG_1533, SG_1535, SG_1537, SG_1532, SG_1538, SG_1536, SG_1540
+static=国外, DIRECT, _1152, Relay_-🇺🇸US_1088
+static=Telegram, DIRECT, 国外, _1152, Relay_-🇺🇸US_1088
+static=Steam, DIRECT, 国外, _1152, Relay_-🇺🇸US_1088
+static=哔哩哔哩, DIRECT, 国外, _1152, Relay_-🇺🇸US_1088
+static=国内, DIRECT, _1152, Relay_-🇺🇸US_1088
 
 [server_remote]
 
@@ -33,14 +33,8 @@ https://api-suc.0z.gs/getruleset?type=2&url=Y29uZmlnL0NoaW5hSVAudHh0&group=5Zu95
 [rewrite_remote]
 
 [server_local]
-vmess = 8.218.194.198:59383, method=chacha20-ietf-poly1305, password=fa530a36-1b07-46ef-9f89-620070640d71, aead=true, fast-open=false, udp-relay=true, tag=SG_1528
-vmess = 8.218.227.58:57005, method=chacha20-ietf-poly1305, password=fcb1a085-2c74-4ed5-829c-bcff003cfbad, aead=true, fast-open=false, udp-relay=true, tag=SG_1533
-vmess = 8.218.225.146:25076, method=chacha20-ietf-poly1305, password=de035cbd-9c64-45b3-8485-bae38a33bd3b, aead=true, fast-open=false, udp-relay=true, tag=SG_1535
-vmess = 8.218.225.242:33712, method=chacha20-ietf-poly1305, password=9639a882-a0bc-4d26-8955-24a49d6cfe4c, aead=true, fast-open=false, udp-relay=true, tag=SG_1537
-vmess = 8.218.228.49:31578, method=chacha20-ietf-poly1305, password=63947df8-2609-4770-ac20-800bcffed655, aead=true, fast-open=false, udp-relay=true, tag=SG_1532
-vmess = 8.218.206.118:60148, method=chacha20-ietf-poly1305, password=c33f0e11-3ac7-4225-a03a-f0f33603a3c1, aead=true, fast-open=false, udp-relay=true, tag=SG_1538
-vmess = 8.218.204.207:34579, method=chacha20-ietf-poly1305, password=d1feb230-d383-4c0f-8ad1-344d65e96b01, aead=true, fast-open=false, udp-relay=true, tag=SG_1536
-vmess = 8.218.70.44:53908, method=chacha20-ietf-poly1305, password=48d927af-a825-4384-b805-a0b4782c980b, aead=true, fast-open=false, udp-relay=true, tag=SG_1540
+trojan = 152.70.74.66:443, password=d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=_1152
+vmess = 52.206.180.173:443, method=chacha20-ietf-poly1305, password=f6dd096d-a22b-45b9-b39b-0552d956d920, aead=true, obfs=ws, obfs-host=52.206.180.173, obfs-uri=/, fast-open=false, udp-relay=true, tag=Relay_-🇺🇸US_1088
 
 [filter_local]
 FINAL,国外
