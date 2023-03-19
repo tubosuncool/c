@@ -11,11 +11,11 @@ server=1.0.0.1
 server=8.8.8.8
 
 [policy]
-static=国外, DIRECT, _57, Relay_-🇺🇸US_1092, SG_1544, _03, _1156, Relay_🏁ZZ-🇬🇧GB_1987, _906
-static=Telegram, DIRECT, 国外, _57, Relay_-🇺🇸US_1092, SG_1544, _03, _1156, Relay_🏁ZZ-🇬🇧GB_1987, _906
-static=Steam, DIRECT, 国外, _57, Relay_-🇺🇸US_1092, SG_1544, _03, _1156, Relay_🏁ZZ-🇬🇧GB_1987, _906
-static=哔哩哔哩, DIRECT, 国外, _57, Relay_-🇺🇸US_1092, SG_1544, _03, _1156, Relay_🏁ZZ-🇬🇧GB_1987, _906
-static=国内, DIRECT, _57, Relay_-🇺🇸US_1092, SG_1544, _03, _1156, Relay_🏁ZZ-🇬🇧GB_1987, _906
+static=国外, DIRECT, Relay_-🇷🇺RU_1111, _1059, Relay_-🇮🇷IR_1105
+static=Telegram, DIRECT, 国外, Relay_-🇷🇺RU_1111, _1059, Relay_-🇮🇷IR_1105
+static=Steam, DIRECT, 国外, Relay_-🇷🇺RU_1111, _1059, Relay_-🇮🇷IR_1105
+static=哔哩哔哩, DIRECT, 国外, Relay_-🇷🇺RU_1111, _1059, Relay_-🇮🇷IR_1105
+static=国内, DIRECT, Relay_-🇷🇺RU_1111, _1059, Relay_-🇮🇷IR_1105
 
 [server_remote]
 
@@ -33,13 +33,9 @@ https://api-suc.0z.gs/getruleset?type=2&url=Y29uZmlnL0NoaW5hSVAudHh0&group=5Zu95
 [rewrite_remote]
 
 [server_local]
-shadowsocks = 3.38.149.198:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=true, tag=_57
-vmess = auvwfuyse.76898102.xyz:15332, method=chacha20-ietf-poly1305, password=5481eae4-43fb-35e3-a3a3-b9b9961ca1bc, aead=true, fast-open=false, udp-relay=true, tag=Relay_-🇺🇸US_1092
-shadowsocks = 13.229.122.56:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=true, tag=SG_1544
-shadowsocks = 18.183.107.80:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=true, tag=_03
-trojan = 152.70.74.66:443, password=d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=false, tag=_1156
-vmess = hdlbydawifbn.114514782.xyz:2095, method=chacha20-ietf-poly1305, password=eaefcb64-2776-3706-b963-a19a2433755e, aead=true, obfs=ws, obfs-host=hdlbydawifbn.114514782.xyz, obfs-uri=/vburgf, fast-open=false, udp-relay=true, tag=Relay_🏁ZZ-🇬🇧GB_1987
-shadowsocks = 43.207.66.114:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=true, tag=_906
+vmess = v22.jiedian.stream:80, method=chacha20-ietf-poly1305, password=89497b70-cbd8-48a8-a9e9-e6010c449d74, aead=true, obfs=ws, obfs-host=v22.jiedian.stream, obfs-uri=/, fast-open=false, udp-relay=true, tag=Relay_-🇷🇺RU_1111
+vmess = 106.55.234.95:31372, method=chacha20-ietf-poly1305, password=374d3519-455c-45b8-e3b1-0e2e9fcf4411, aead=true, fast-open=false, udp-relay=true, tag=_1059
+vmess = v51.jiedian.stream:80, method=chacha20-ietf-poly1305, password=89497b70-cbd8-48a8-a9e9-e6010c449d74, aead=true, obfs=ws, obfs-host=v51.jiedian.stream, obfs-uri=/, fast-open=false, udp-relay=true, tag=Relay_-🇮🇷IR_1105
 
 [filter_local]
 FINAL,国外
