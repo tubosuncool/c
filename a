@@ -123,120 +123,72 @@ dns:
     - tls://1.0.0.1:853
     - tls://8.8.4.4:853
 proxies:
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_1219, server: cn12.mynode.me, port: 8404, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 28292-m9zCSDi0.download.microsoft.com, udp: true}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🏁ZZ_1227, server: cn10.mynode.me, port: 8306, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 28292-m9zCSDi0.download.microsoft.com, udp: true}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1220, server: cn03.mynode.me, port: 8115, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 28292-m9zCSDi0.download.microsoft.com, udp: true}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇦🇺AU_1278, server: cn12.mynode.me, port: 8406, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 28292-m9zCSDi0.download.microsoft.com, udp: true}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1257, server: cn04.mynode.me, port: 8116, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 28292-m9zCSDi0.download.microsoft.com, udp: true}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🏁ZZ_1235, server: cn10.mynode.me, port: 8304, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 28292-m9zCSDi0.download.microsoft.com, udp: true}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1218, server: cn09.mynode.me, port: 8215, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 28292-m9zCSDi0.download.microsoft.com, udp: true}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_1262, server: cn02.mynode.me, port: 8104, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 28292-m9zCSDi0.download.microsoft.com, udp: true}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_1281, server: cn05.mynode.me, port: 8125, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 28292-m9zCSDi0.download.microsoft.com, udp: true}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_1282, server: cn13.mynode.me, port: 8408, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 28292-m9zCSDi0.download.microsoft.com, udp: true}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇦🇺AU_1276, server: cn14.mynode.me, port: 8411, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 28292-m9zCSDi0.download.microsoft.com, udp: true}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1253, server: cn06.mynode.me, port: 8204, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 28292-m9zCSDi0.download.microsoft.com, udp: true}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1223, server: cn06.mynode.me, port: 8205, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 28292-m9zCSDi0.download.microsoft.com, udp: true}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1272, server: cn03.mynode.me, port: 8113, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 28292-m9zCSDi0.download.microsoft.com, udp: true}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1279, server: cn04.mynode.me, port: 8118, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 28292-m9zCSDi0.download.microsoft.com, udp: true}
+  - {name: SG_1535, server: 8.218.225.146, port: 25076, type: vmess, uuid: de035cbd-9c64-45b3-8485-bae38a33bd3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.225.146]}}, udp: true}
+  - {name: SG_1649, server: 8.218.226.112, port: 20329, type: vmess, uuid: 2f999df9-07d0-42a5-8423-2b0b69b9fa0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.226.112]}}, udp: true}
+  - {name: SG_1536, server: 8.218.204.207, port: 34579, type: vmess, uuid: d1feb230-d383-4c0f-8ad1-344d65e96b01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.204.207]}}, udp: true}
+  - {name: SG_1533, server: 8.218.227.58, port: 57005, type: vmess, uuid: fcb1a085-2c74-4ed5-829c-bcff003cfbad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.227.58]}}, udp: true}
+  - {name: SG_1537, server: 8.218.225.242, port: 33712, type: vmess, uuid: 9639a882-a0bc-4d26-8955-24a49d6cfe4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.225.242]}}, udp: true}
+  - {name: Relay_-🏁ZZ_1046, server: iplc2.muniu.live, port: 7000, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 101797:uY5yat8b0yYpl1Px, obfs-param: 03c3a101797.microsoft.com, udp: true}
+  - {name: Relay_-🇺🇸US_1043, server: iplc3.muniu.live, port: 7000, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 101797:uY5yat8b0yYpl1Px, obfs-param: 03c3a101797.microsoft.com, udp: true}
 proxy-groups:
   - name: 国外
     type: select
     proxies:
       - DIRECT
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_1219
-      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_1227
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1220
-      - 🇨🇳 Relay_🇨🇳CN-🇦🇺AU_1278
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1257
-      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_1235
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1218
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_1262
-      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_1281
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_1282
-      - 🇨🇳 Relay_🇨🇳CN-🇦🇺AU_1276
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1253
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1223
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1272
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1279
+      - SG_1535
+      - SG_1649
+      - SG_1536
+      - SG_1533
+      - SG_1537
+      - Relay_-🏁ZZ_1046
+      - Relay_-🇺🇸US_1043
   - name: Telegram
     type: select
     proxies:
       - DIRECT
       - 国外
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_1219
-      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_1227
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1220
-      - 🇨🇳 Relay_🇨🇳CN-🇦🇺AU_1278
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1257
-      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_1235
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1218
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_1262
-      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_1281
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_1282
-      - 🇨🇳 Relay_🇨🇳CN-🇦🇺AU_1276
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1253
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1223
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1272
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1279
+      - SG_1535
+      - SG_1649
+      - SG_1536
+      - SG_1533
+      - SG_1537
+      - Relay_-🏁ZZ_1046
+      - Relay_-🇺🇸US_1043
   - name: Steam
     type: select
     proxies:
       - DIRECT
       - 国外
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_1219
-      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_1227
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1220
-      - 🇨🇳 Relay_🇨🇳CN-🇦🇺AU_1278
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1257
-      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_1235
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1218
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_1262
-      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_1281
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_1282
-      - 🇨🇳 Relay_🇨🇳CN-🇦🇺AU_1276
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1253
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1223
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1272
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1279
+      - SG_1535
+      - SG_1649
+      - SG_1536
+      - SG_1533
+      - SG_1537
+      - Relay_-🏁ZZ_1046
+      - Relay_-🇺🇸US_1043
   - name: 哔哩哔哩
     type: select
     proxies:
       - DIRECT
       - 国外
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_1219
-      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_1227
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1220
-      - 🇨🇳 Relay_🇨🇳CN-🇦🇺AU_1278
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1257
-      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_1235
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1218
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_1262
-      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_1281
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_1282
-      - 🇨🇳 Relay_🇨🇳CN-🇦🇺AU_1276
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1253
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1223
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1272
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1279
+      - SG_1535
+      - SG_1649
+      - SG_1536
+      - SG_1533
+      - SG_1537
+      - Relay_-🏁ZZ_1046
+      - Relay_-🇺🇸US_1043
   - name: 国内
     type: select
     proxies:
       - DIRECT
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_1219
-      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_1227
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1220
-      - 🇨🇳 Relay_🇨🇳CN-🇦🇺AU_1278
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1257
-      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_1235
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1218
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_1262
-      - 🇨🇳 Relay_🇨🇳CN-🇷🇺RU_1281
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_1282
-      - 🇨🇳 Relay_🇨🇳CN-🇦🇺AU_1276
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1253
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1223
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1272
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇦CA_1279
+      - SG_1535
+      - SG_1649
+      - SG_1536
+      - SG_1533
+      - SG_1537
+      - Relay_-🏁ZZ_1046
+      - Relay_-🇺🇸US_1043
 rules:
  - DOMAIN-SUFFIX,sb-ssl.google.com,REJECT
  - DOMAIN-SUFFIX,safebrowsing.googleapis.com,REJECT
