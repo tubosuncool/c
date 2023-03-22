@@ -123,90 +123,96 @@ dns:
     - tls://1.0.0.1:853
     - tls://8.8.4.4:853
 proxies:
-  - {name: Pool_ |20.92Mb, server: 85.208.108.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: SG_1535, server: 8.218.225.146, port: 25076, type: vmess, uuid: de035cbd-9c64-45b3-8485-bae38a33bd3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.225.146]}}, udp: true}
-  - {name: Pool_ |24.52Mb, server: 85.208.108.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Pool_ | 9.07Mb, server: 85.208.108.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Pool_ |32.67Mb, server: 85.208.108.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Pool_ |14.87Mb, server: 85.208.108.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Pool_ |17.85Mb, server: 85.208.108.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Pool_ |24.62Mb, server: 85.208.108.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: SG_1649, server: 8.218.226.112, port: 20329, type: vmess, uuid: 2f999df9-07d0-42a5-8423-2b0b69b9fa0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.226.112]}}, udp: true}
-  - {name: Pool_ |27.28Mb, server: 85.208.108.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _565, server: 52.78.138.25, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _603, server: 43.207.110.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _643, server: 43.207.214.255, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: SG_1576, server: 8.210.47.216, port: 43469, type: vmess, uuid: 163cc2ef-a4c8-4f48-9898-f8a7074d1947, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.210.47.216]}}, udp: true}
+  - {name: _1106, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇷🇺RU_1207, server: ru.mjt001.com, port: 443, type: trojan, password: 5a035db3-34ea-48ca-9aa2-72c8229e1532, sni: ru.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: _439, server: 172.99.188.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _459, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _126, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _554, server: 172.99.188.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _436, server: 14.29.124.168, port: 25284, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
 proxy-groups:
   - name: 国外
     type: select
     proxies:
       - DIRECT
-      - Pool_ |20.92Mb
-      - SG_1535
-      - Pool_ |24.52Mb
-      - Pool_ | 9.07Mb
-      - Pool_ |32.67Mb
-      - Pool_ |14.87Mb
-      - Pool_ |17.85Mb
-      - Pool_ |24.62Mb
-      - SG_1649
-      - Pool_ |27.28Mb
+      - _565
+      - _603
+      - _643
+      - SG_1576
+      - _1106
+      - Relay_-🇷🇺RU_1207
+      - _439
+      - _459
+      - _126
+      - _554
+      - _436
   - name: Telegram
     type: select
     proxies:
       - DIRECT
       - 国外
-      - Pool_ |20.92Mb
-      - SG_1535
-      - Pool_ |24.52Mb
-      - Pool_ | 9.07Mb
-      - Pool_ |32.67Mb
-      - Pool_ |14.87Mb
-      - Pool_ |17.85Mb
-      - Pool_ |24.62Mb
-      - SG_1649
-      - Pool_ |27.28Mb
+      - _565
+      - _603
+      - _643
+      - SG_1576
+      - _1106
+      - Relay_-🇷🇺RU_1207
+      - _439
+      - _459
+      - _126
+      - _554
+      - _436
   - name: Steam
     type: select
     proxies:
       - DIRECT
       - 国外
-      - Pool_ |20.92Mb
-      - SG_1535
-      - Pool_ |24.52Mb
-      - Pool_ | 9.07Mb
-      - Pool_ |32.67Mb
-      - Pool_ |14.87Mb
-      - Pool_ |17.85Mb
-      - Pool_ |24.62Mb
-      - SG_1649
-      - Pool_ |27.28Mb
+      - _565
+      - _603
+      - _643
+      - SG_1576
+      - _1106
+      - Relay_-🇷🇺RU_1207
+      - _439
+      - _459
+      - _126
+      - _554
+      - _436
   - name: 哔哩哔哩
     type: select
     proxies:
       - DIRECT
       - 国外
-      - Pool_ |20.92Mb
-      - SG_1535
-      - Pool_ |24.52Mb
-      - Pool_ | 9.07Mb
-      - Pool_ |32.67Mb
-      - Pool_ |14.87Mb
-      - Pool_ |17.85Mb
-      - Pool_ |24.62Mb
-      - SG_1649
-      - Pool_ |27.28Mb
+      - _565
+      - _603
+      - _643
+      - SG_1576
+      - _1106
+      - Relay_-🇷🇺RU_1207
+      - _439
+      - _459
+      - _126
+      - _554
+      - _436
   - name: 国内
     type: select
     proxies:
       - DIRECT
-      - Pool_ |20.92Mb
-      - SG_1535
-      - Pool_ |24.52Mb
-      - Pool_ | 9.07Mb
-      - Pool_ |32.67Mb
-      - Pool_ |14.87Mb
-      - Pool_ |17.85Mb
-      - Pool_ |24.62Mb
-      - SG_1649
-      - Pool_ |27.28Mb
+      - _565
+      - _603
+      - _643
+      - SG_1576
+      - _1106
+      - Relay_-🇷🇺RU_1207
+      - _439
+      - _459
+      - _126
+      - _554
+      - _436
 rules:
  - DOMAIN-SUFFIX,sb-ssl.google.com,REJECT
  - DOMAIN-SUFFIX,safebrowsing.googleapis.com,REJECT
@@ -308,6 +314,8 @@ rules:
  - DOMAIN-SUFFIX,home-intl.console.aliyun.com,国外
  - DOMAIN,www.bing.com,国外
  - DOMAIN,bingapis.com,国外
+ - DOMAIN-SUFFIX,bing.com,国外
+ - DOMAIN-SUFFIX,bing.net,国外
  - DOMAIN,ip.skk.moe,国外
  - DOMAIN,ip.sb,国外
  - DOMAIN-SUFFIX,ipip.net,国外
