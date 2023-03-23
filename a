@@ -123,96 +123,126 @@ dns:
     - tls://1.0.0.1:853
     - tls://8.8.4.4:853
 proxies:
-  - {name: _565, server: 52.78.138.25, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _603, server: 43.207.110.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _643, server: 43.207.214.255, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: SG_1576, server: 8.210.47.216, port: 43469, type: vmess, uuid: 163cc2ef-a4c8-4f48-9898-f8a7074d1947, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.210.47.216]}}, udp: true}
+  - {name: _603, server: 43.207.110.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _1106, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_-🇷🇺RU_1207, server: ru.mjt001.com, port: 443, type: trojan, password: 5a035db3-34ea-48ca-9aa2-72c8229e1532, sni: ru.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: _439, server: 172.99.188.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Relay_-🇯🇵JP_1111, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: PT09PQ======, obfs-param: PT09PQ======, udp: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1981, server: new8.hucloud-dns.xyz, port: 443, type: vmess, uuid: f11786fc-abf0-40e8-8177-992c699cc95f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /0fa5cea95e7/, headers: {Host: new8.hucloud-dns.xyz}}, udp: true}
+  - {name: Relay_-🇯🇵JP_1110, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: PT09JSXvv70=, obfs-param: PT09JSXvv70=, udp: true}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1417, server: api-a-asia-4.mcqqn.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: dbefcef0-836b-4d58-aa05-146f7e63f06f, udp: true}
   - {name: _459, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _126, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _554, server: 172.99.188.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _436, server: 14.29.124.168, port: 25284, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _122, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _258, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _144, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _140, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _221, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _310, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _152, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _311, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
 proxy-groups:
   - name: 国外
     type: select
     proxies:
       - DIRECT
-      - _565
-      - _603
       - _643
-      - SG_1576
+      - _603
       - _1106
-      - Relay_-🇷🇺RU_1207
-      - _439
+      - Relay_-🇯🇵JP_1111
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1981
+      - Relay_-🇯🇵JP_1110
+      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1417
       - _459
-      - _126
-      - _554
-      - _436
+      - _122
+      - _258
+      - _144
+      - _140
+      - _221
+      - _310
+      - _152
+      - _311
   - name: Telegram
     type: select
     proxies:
       - DIRECT
       - 国外
-      - _565
-      - _603
       - _643
-      - SG_1576
+      - _603
       - _1106
-      - Relay_-🇷🇺RU_1207
-      - _439
+      - Relay_-🇯🇵JP_1111
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1981
+      - Relay_-🇯🇵JP_1110
+      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1417
       - _459
-      - _126
-      - _554
-      - _436
+      - _122
+      - _258
+      - _144
+      - _140
+      - _221
+      - _310
+      - _152
+      - _311
   - name: Steam
     type: select
     proxies:
       - DIRECT
       - 国外
-      - _565
-      - _603
       - _643
-      - SG_1576
+      - _603
       - _1106
-      - Relay_-🇷🇺RU_1207
-      - _439
+      - Relay_-🇯🇵JP_1111
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1981
+      - Relay_-🇯🇵JP_1110
+      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1417
       - _459
-      - _126
-      - _554
-      - _436
+      - _122
+      - _258
+      - _144
+      - _140
+      - _221
+      - _310
+      - _152
+      - _311
   - name: 哔哩哔哩
     type: select
     proxies:
       - DIRECT
       - 国外
-      - _565
-      - _603
       - _643
-      - SG_1576
+      - _603
       - _1106
-      - Relay_-🇷🇺RU_1207
-      - _439
+      - Relay_-🇯🇵JP_1111
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1981
+      - Relay_-🇯🇵JP_1110
+      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1417
       - _459
-      - _126
-      - _554
-      - _436
+      - _122
+      - _258
+      - _144
+      - _140
+      - _221
+      - _310
+      - _152
+      - _311
   - name: 国内
     type: select
     proxies:
       - DIRECT
-      - _565
-      - _603
       - _643
-      - SG_1576
+      - _603
       - _1106
-      - Relay_-🇷🇺RU_1207
-      - _439
+      - Relay_-🇯🇵JP_1111
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1981
+      - Relay_-🇯🇵JP_1110
+      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1417
       - _459
-      - _126
-      - _554
-      - _436
+      - _122
+      - _258
+      - _144
+      - _140
+      - _221
+      - _310
+      - _152
+      - _311
 rules:
  - DOMAIN-SUFFIX,sb-ssl.google.com,REJECT
  - DOMAIN-SUFFIX,safebrowsing.googleapis.com,REJECT
