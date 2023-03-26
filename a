@@ -11,12 +11,12 @@ server=1.0.0.1
 server=8.8.8.8
 
 [policy]
-static=国外, DIRECT, | 9.18Mb, |108.51Mb, |20.38Mb, | 7.68Mb, | 3.26Mb
-static=OpenAI, DIRECT, 国外, | 9.18Mb, |108.51Mb, |20.38Mb, | 7.68Mb, | 3.26Mb
-static=Telegram, DIRECT, 国外, | 9.18Mb, |108.51Mb, |20.38Mb, | 7.68Mb, | 3.26Mb
-static=Steam, DIRECT, 国外, | 9.18Mb, |108.51Mb, |20.38Mb, | 7.68Mb, | 3.26Mb
-static=哔哩哔哩, DIRECT, 国外, | 9.18Mb, |108.51Mb, |20.38Mb, | 7.68Mb, | 3.26Mb
-static=国内, DIRECT, | 9.18Mb, |108.51Mb, |20.38Mb, | 7.68Mb, | 3.26Mb
+static=国外, DIRECT, 778, 758, 637, 781, 458, 728, 728 2, 769
+static=OpenAI, DIRECT, 国外, 778, 758, 637, 781, 458, 728, 728 2, 769
+static=Telegram, DIRECT, 国外, 778, 758, 637, 781, 458, 728, 728 2, 769
+static=Steam, DIRECT, 国外, 778, 758, 637, 781, 458, 728, 728 2, 769
+static=哔哩哔哩, DIRECT, 国外, 778, 758, 637, 781, 458, 728, 728 2, 769
+static=国内, DIRECT, 778, 758, 637, 781, 458, 728, 728 2, 769
 
 [server_remote]
 
@@ -35,11 +35,14 @@ https://api-suc.0z.gs/getruleset?type=2&url=Y29uZmlnL0NoaW5hSVAudHh0&group=5Zu95
 [rewrite_remote]
 
 [server_local]
-shadowsocks = 14.29.124.168:25283, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=| 9.18Mb
-vmess = hk1.b.bd6b6c503c93.sanfen001.pics:443, method=chacha20-ietf-poly1305, password=da9d5c74-a572-4cf4-a375-19b886f5ffc4, aead=true, tls13=false, obfs=wss, obfs-host=hk1.b.bd6b6c503c93.sanfen001.pics, obfs-uri=/zh-cn, fast-open=false, udp-relay=true, tls-verification=false, tag=|108.51Mb
-shadowsocks = 172.99.188.99:8882, method=aes-256-gcm, password=kDWvXYZoTBcGkC4, fast-open=false, udp-relay=true, tag=|20.38Mb
-shadowsocks = 14.29.124.168:25294, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=| 7.68Mb
-shadowsocks = 14.29.124.168:25268, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=| 3.26Mb
+vmess = 145.239.2.52:443, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, tls13=false, obfs=wss, obfs-host=www.27496905.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=778
+vmess = 51.89.2.192:443, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, tls13=false, obfs=wss, obfs-host=www.25126753.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=758
+vmess = 141.95.6.58:443, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, tls13=false, obfs=wss, obfs-host=www.22284376.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=637
+vmess = 51.89.41.211:443, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, tls13=false, obfs=wss, obfs-host=www.88109376.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=781
+vmess = 142.0.128.108:443, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, tls13=false, obfs=wss, obfs-host=www.63084332.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=458
+vmess = 51.77.90.254:443, method=chacha20-ietf-poly1305, password=9bedfe8a-7d6d-416f-9fa8-d9ba3ca1b49e, aead=false, tls13=false, obfs=wss, obfs-host=www.66700039.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=728
+vmess = 51.77.90.254:443, method=chacha20-ietf-poly1305, password=9bedfe8a-7d6d-416f-9fa8-d9ba3ca1b49e, aead=false, tls13=false, obfs=wss, obfs-host=www.66700039.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=728 2
+vmess = 38.63.16.136:443, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, tls13=false, obfs=wss, obfs-host=www.20724291.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=769
 
 [filter_local]
 FINAL,国外
