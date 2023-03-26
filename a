@@ -11,12 +11,12 @@ server=1.0.0.1
 server=8.8.8.8
 
 [policy]
-static=国外, DIRECT, | 7.38Mb, 🇺🇸 Relay_🇺🇸US-🇺🇸US_114, |11.85Mb, | 5.80Mb, | 2.48Mb, | 0.49Mb, | 7.42Mb, | 7.68Mb
-static=OpenAI, DIRECT, 国外, | 7.38Mb, 🇺🇸 Relay_🇺🇸US-🇺🇸US_114, |11.85Mb, | 5.80Mb, | 2.48Mb, | 0.49Mb, | 7.42Mb, | 7.68Mb
-static=Telegram, DIRECT, 国外, | 7.38Mb, 🇺🇸 Relay_🇺🇸US-🇺🇸US_114, |11.85Mb, | 5.80Mb, | 2.48Mb, | 0.49Mb, | 7.42Mb, | 7.68Mb
-static=Steam, DIRECT, 国外, | 7.38Mb, 🇺🇸 Relay_🇺🇸US-🇺🇸US_114, |11.85Mb, | 5.80Mb, | 2.48Mb, | 0.49Mb, | 7.42Mb, | 7.68Mb
-static=哔哩哔哩, DIRECT, 国外, | 7.38Mb, 🇺🇸 Relay_🇺🇸US-🇺🇸US_114, |11.85Mb, | 5.80Mb, | 2.48Mb, | 0.49Mb, | 7.42Mb, | 7.68Mb
-static=国内, DIRECT, | 7.38Mb, 🇺🇸 Relay_🇺🇸US-🇺🇸US_114, |11.85Mb, | 5.80Mb, | 2.48Mb, | 0.49Mb, | 7.42Mb, | 7.68Mb
+static=国外, DIRECT, | 7.38Mb, | 7.48Mb, | 0.49Mb, | 2.14Mb, | 7.69Mb, | 7.57Mb, | 1.66Mb, | 2.35Mb, | 0.53Mb, | 5.41Mb, |11.85Mb, | 0.64Mb, | 3.26Mb, | 5.76Mb
+static=OpenAI, DIRECT, 国外, | 7.38Mb, | 7.48Mb, | 0.49Mb, | 2.14Mb, | 7.69Mb, | 7.57Mb, | 1.66Mb, | 2.35Mb, | 0.53Mb, | 5.41Mb, |11.85Mb, | 0.64Mb, | 3.26Mb, | 5.76Mb
+static=Telegram, DIRECT, 国外, | 7.38Mb, | 7.48Mb, | 0.49Mb, | 2.14Mb, | 7.69Mb, | 7.57Mb, | 1.66Mb, | 2.35Mb, | 0.53Mb, | 5.41Mb, |11.85Mb, | 0.64Mb, | 3.26Mb, | 5.76Mb
+static=Steam, DIRECT, 国外, | 7.38Mb, | 7.48Mb, | 0.49Mb, | 2.14Mb, | 7.69Mb, | 7.57Mb, | 1.66Mb, | 2.35Mb, | 0.53Mb, | 5.41Mb, |11.85Mb, | 0.64Mb, | 3.26Mb, | 5.76Mb
+static=哔哩哔哩, DIRECT, 国外, | 7.38Mb, | 7.48Mb, | 0.49Mb, | 2.14Mb, | 7.69Mb, | 7.57Mb, | 1.66Mb, | 2.35Mb, | 0.53Mb, | 5.41Mb, |11.85Mb, | 0.64Mb, | 3.26Mb, | 5.76Mb
+static=国内, DIRECT, | 7.38Mb, | 7.48Mb, | 0.49Mb, | 2.14Mb, | 7.69Mb, | 7.57Mb, | 1.66Mb, | 2.35Mb, | 0.53Mb, | 5.41Mb, |11.85Mb, | 0.64Mb, | 3.26Mb, | 5.76Mb
 
 [server_remote]
 
@@ -36,13 +36,19 @@ https://api-suc.0z.gs/getruleset?type=2&url=Y29uZmlnL0NoaW5hSVAudHh0&group=5Zu95
 
 [server_local]
 shadowsocks = 14.29.124.168:25254, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=| 7.38Mb
-vmess = hk1.b.bd6b6c503c93.sanfen001.pics:443, method=chacha20-ietf-poly1305, password=da9d5c74-a572-4cf4-a375-19b886f5ffc4, aead=true, tls13=false, obfs=wss, obfs-host=hk1.b.bd6b6c503c93.sanfen001.pics, obfs-uri=/zh-cn, fast-open=false, udp-relay=true, tls-verification=false, tag=🇺🇸 Relay_🇺🇸US-🇺🇸US_114
-shadowsocks = 14.29.124.168:25210, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=|11.85Mb
-shadowsocks = 14.29.124.168:25252, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=| 5.80Mb
-shadowsocks = 14.29.124.168:25267, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=| 2.48Mb
+shadowsocks = 14.29.124.168:25284, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=| 7.48Mb
 shadowsocks = 14.29.124.168:25280, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=| 0.49Mb
-shadowsocks = 14.29.124.168:25226, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=| 7.42Mb
-shadowsocks = 14.29.124.168:25294, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=| 7.68Mb
+shadowsocks = 14.29.124.168:25207, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=| 2.14Mb
+shadowsocks = 14.29.124.168:25247, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=| 7.69Mb
+shadowsocks = 14.29.124.168:25266, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=| 7.57Mb
+shadowsocks = 14.29.124.168:25295, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=| 1.66Mb
+shadowsocks = 14.29.124.168:25217, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=| 2.35Mb
+shadowsocks = 14.29.124.168:25287, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=| 0.53Mb
+shadowsocks = 14.29.124.168:25286, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=| 5.41Mb
+shadowsocks = 14.29.124.168:25210, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=|11.85Mb
+shadowsocks = 14.29.124.168:25233, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=| 0.64Mb
+shadowsocks = 14.29.124.168:25268, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=| 3.26Mb
+shadowsocks = 14.29.124.168:25238, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=true, tag=| 5.76Mb
 
 [filter_local]
 FINAL,国外
