@@ -1,60 +1,47 @@
-[general]
-excluded_routes=192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
-geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://github.com/KOP-XIAO/QuantumultX/raw/master/Scripts/IP_API.js
-network_check_url=http://www.baidu.com/
-server_check_url=http://www.gstatic.com/generate_204
-
-[dns]
-server=119.29.29.29
-server=223.5.5.5
-server=1.0.0.1
-server=8.8.8.8
-
-[policy]
-static=国外, DIRECT, 1214, 1222, 1229, 1294, 1302, 1310, 1311, 1356, 161, 331, 340, 341, 342, 357, 364, 727
-static=OpenAI, DIRECT, 国外, 1214, 1222, 1229, 1294, 1302, 1310, 1311, 1356, 161, 331, 340, 341, 342, 357, 364, 727
-static=Telegram, DIRECT, 国外, 1214, 1222, 1229, 1294, 1302, 1310, 1311, 1356, 161, 331, 340, 341, 342, 357, 364, 727
-static=Steam, DIRECT, 国外, 1214, 1222, 1229, 1294, 1302, 1310, 1311, 1356, 161, 331, 340, 341, 342, 357, 364, 727
-static=哔哩哔哩, DIRECT, 国外, 1214, 1222, 1229, 1294, 1302, 1310, 1311, 1356, 161, 331, 340, 341, 342, 357, 364, 727
-static=国内, DIRECT, 1214, 1222, 1229, 1294, 1302, 1310, 1311, 1356, 161, 331, 340, 341, 342, 357, 364, 727
-
-[server_remote]
-
-[filter_remote]
-https://api-suc.0z.gs/getruleset?type=2&url=Y29uZmlnL2JhbkFELnR4dA&group=UkVKRUNU, tag=REJECT, enabled=true
-https://api-suc.0z.gs/getruleset?type=2&url=Y29uZmlnL0ZvcmNlRGlyZWN0LnR4dA&group=RElSRUNU, tag=DIRECT, enabled=true
-https://api-suc.0z.gs/getruleset?type=2&url=Y29uZmlnL0ZvcmNlUHJveHkudHh0&group=5Zu95aSW, tag=国外, enabled=true
-https://api-suc.0z.gs/getruleset?type=2&url=Y29uZmlnL2JpbGliaWxpSE1ULnR4dA&group=5ZOU5ZOp5ZOU5ZOp, tag=哔哩哔哩, enabled=true
-https://api-suc.0z.gs/getruleset?type=2&url=Y29uZmlnL3N0ZWFtLnR4dA&group=U3RlYW0, tag=Steam, enabled=true
-https://api-suc.0z.gs/getruleset?type=2&url=Y29uZmlnL2NuLWRvbWFpbnMudHh0&group=5Zu95YaF, tag=国内, enabled=true
-https://api-suc.0z.gs/getruleset?type=2&url=Y29uZmlnL1RlbGVncmFtLnR4dA&group=VGVsZWdyYW0, tag=Telegram, enabled=true
-https://api-suc.0z.gs/getruleset?type=2&url=Y29uZmlnL09wZW5BSS50eHQ&group=T3BlbkFJ, tag=OpenAI, enabled=true
-https://api-suc.0z.gs/getruleset?type=2&url=Y29uZmlnL3Byb3hpZXMudHh0&group=5Zu95aSW, tag=国外, enabled=true
-https://api-suc.0z.gs/getruleset?type=2&url=Y29uZmlnL0NoaW5hSVAudHh0&group=5Zu95YaF, tag=国内, enabled=true
-
-[rewrite_remote]
-
-[server_local]
-vmess = 89.163.150.9:443, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, tls13=false, obfs=wss, obfs-host=www.75723270.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=1214
-vmess = 89.163.150.213:443, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, tls13=false, obfs=wss, obfs-host=www.68706198.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=1222
-vmess = 85.114.138.238:443, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, tls13=false, obfs=wss, obfs-host=www.46058943.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=1229
-vmess = 142.0.135.36:443, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, tls13=false, obfs=wss, obfs-host=www.52571951.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=1294
-vmess = 89.163.157.202:443, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, tls13=false, obfs=wss, obfs-host=www.74413918.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=1302
-vmess = 89.163.131.153:443, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, tls13=false, obfs=wss, obfs-host=www.61961782.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=1310
-vmess = 89.163.129.114:443, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, tls13=false, obfs=wss, obfs-host=www.79282165.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=1311
-vmess = 51.89.3.228:443, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, tls13=false, obfs=wss, obfs-host=www.12473385.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=1356
-vmess = 51.68.163.204:443, method=chacha20-ietf-poly1305, password=8b447c53-feda-4d92-a975-3b7287e6ec8c, aead=false, tls13=false, obfs=wss, obfs-host=www.83782743.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=161
-vmess = 142.0.133.225:443, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, tls13=false, obfs=wss, obfs-host=www.52379972.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=331
-vmess = 142.0.131.53:443, method=chacha20-ietf-poly1305, password=2a23dbd5-09cf-4aa8-a835-3230728c4973, aead=false, tls13=false, obfs=wss, obfs-host=www.68757543.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=340
-vmess = 142.4.110.1:443, method=chacha20-ietf-poly1305, password=08fc4943-4c7a-4a69-9265-fb961eaea917, aead=false, tls13=false, obfs=wss, obfs-host=www.53846731.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=341
-vmess = 142.4.110.1:443, method=chacha20-ietf-poly1305, password=08fc4943-4c7a-4a69-9265-fb961eaea917, aead=false, tls13=false, obfs=wss, obfs-host=www.53846731.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=342
-vmess = 51.89.2.145:443, method=chacha20-ietf-poly1305, password=7beb4281-e8e4-4183-b172-29b78391abfd, aead=false, tls13=false, obfs=wss, obfs-host=www.33268208.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=357
-vmess = 135.125.242.229:443, method=chacha20-ietf-poly1305, password=3ac820af-becb-45d7-9e7a-e33d02961bb3, aead=false, tls13=false, obfs=wss, obfs-host=www.19897739.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=364
-vmess = 142.4.109.4:443, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, tls13=false, obfs=wss, obfs-host=www.29253744.xyz, obfs-uri=/path/120306182525, fast-open=false, udp-relay=true, tls-verification=false, tag=727
-
-[filter_local]
-FINAL,国外
-
-[rewrite_local]
-
-[mitm]
+proxies:
+  - {name: "|17.00Mb", server: 85.208.108.60, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 中国-浙江-丽水-ss-p1.bxy-fun1.com:26105, server: p1.bxy-fun1.com, port: 26105, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db, udp: true}
+  - {name: 中国-广东-广州-ss-p1.bxy-fun3.com:35127, server: p1.bxy-fun3.com, port: 35127, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db, udp: true}
+  - {name: "| 7.93Mb", server: p1.bxy-fun3.com, port: 23100, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db, udp: true}
+  - {name: "|26.89Mb", server: 85.208.108.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 🇸🇬 新加坡-0-0-ss-13.228.30.25:443, server: 13.228.30.25, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 中国-江苏-0-ss-p1.bxy-fun2.com:23105, server: p1.bxy-fun2.com, port: 23105, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db, udp: true}
+  - {name: 🇺🇸 美国-康涅狄格-0-ss-13.213.41.142:443, server: 13.213.41.142, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 中国-浙江-丽水-ss-p1.bxy-fun1.com:11407, server: p1.bxy-fun1.com, port: 11407, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db, udp: true}
+  - {name: "|18.09Mb", server: 85.208.108.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "|25.56Mb", server: 85.208.108.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "|28.60Mb", server: 85.208.108.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|25.59Mb", server: 85.208.108.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "|39.69Mb", server: 85.208.108.60, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|29.43Mb", server: 85.208.108.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 中国-江苏-0-ss-p1.bxy-fun2.com:24103, server: p1.bxy-fun2.com, port: 24103, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db, udp: true}
+  - {name: 中国-江苏-0-ss-p1.bxy-fun2.com:26107, server: p1.bxy-fun2.com, port: 26107, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db, udp: true}
+  - {name: 🇯🇵 日本-东京都-东京-ss-13.230.66.40:443, server: 13.230.66.40, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 中国-浙江-丽水-ss-p1.bxy-fun1.com:30470, server: p1.bxy-fun1.com, port: 30470, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db, udp: true}
+  - {name: 🇮🇳 印度-马哈拉施特拉-0-v2ray-103.197.184.42:80, server: 103.197.184.42, port: 80, type: vmess, uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hahuutung, headers: {Host: 103.197.184.42}}, udp: true}
+  - {name: 🇮🇳 印度-马哈拉施特拉-0-v2ray-vietnam9.azzphuc.pro:80, server: vietnam9.azzphuc.pro, port: 80, type: vmess, uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hahuutung, headers: {Host: vietnam9.azzphuc.pro}}, udp: true}
+  - {name: 🇮🇳 印度-马哈拉施特拉-0-v2ray-103.197.184.43:80, server: 103.197.184.43, port: 80, type: vmess, uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hahuutung, headers: {Host: 103.197.184.43}}, udp: true}
+  - {name: "|23.32Mb", server: 85.208.108.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "|11.30Mb", server: 172.99.188.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇦🇺 澳大利亚-0-0-ss-43.207.205.208:443, server: 43.207.205.208, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "|27.03Mb", server: 85.208.108.60, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "|15.90Mb", server: 85.208.108.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 中国-江苏-0-ss-p1.bxy-fun2.com:23101, server: p1.bxy-fun2.com, port: 23101, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db, udp: true}
+  - {name: "| 9.18Mb", server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国-广东-广州-ss-14.29.124.168:25287, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "| 7.99Mb", server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国-广东-广州-ss-14.29.124.168:25251, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国-广东-广州-ss-14.29.124.168:25254, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|28.48Mb", server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "| 1.42Mb", server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国-广东-广州-ss-14.29.124.168:25289, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国-0-0-ss-36.139.166.231:11023, server: 36.139.166.231, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
+  - {name: "| 3.26Mb", server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国-广东-广州-ss-14.29.124.168:25295, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "| 0.64Mb", server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国-广东-广州-ss-14.29.124.168:25256, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇦🇺 澳大利亚-0-0-ss-43.207.225.151:443, server: 43.207.225.151, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 美国-康涅狄格-0-ss-13.212.250.149:443, server: 13.212.250.149, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 中国-广东-广州-ss-p1.bxy-fun3.com:26106, server: p1.bxy-fun3.com, port: 26106, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db, udp: true}
+  - {name: "| 0.49Mb", server: 14.29.124.168, port: 25280, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国-0-0-ss-36.139.166.244:11023, server: 36.139.166.244, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
